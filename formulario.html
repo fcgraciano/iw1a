@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="salvar.html" method="get">
+
+        <label> Login: </label>
+        <input name="login" type="email" id="login" />
+        <br />
+        <label>Senha:</label>
+        <input type="password" name="senha" />
+        <br />
+        <select name="opções">
+            <option value="Facebook">
+                Acessar Facebook
+            </option>
+            <option value="instagran">
+                Acessar Instagran
+            </option>
+        </select>
+        <br>
+        <input type="checkbox" name="salvarsenha" />
+        Manter logado ?
+        <br />
+        <input type="radio" name="genero" 
+            value="Outros" /> Outros
+        <br>
+        <input type="radio" 
+                name="genero" 
+                value="Feminino" />Masculino
+        <br>
+        <input type="radio"
+             name="genero" 
+             value="Feminino" />Feminino
+        <br />
+        <label>Data de Nascimento</label>
+        <input type="date" name="dataNascimento"/>
+        <br />
+        <label>Faça seu comentário</label>
+        <textarea class="" name="comentario">
+        </textarea>
+
+        <button type="submit">
+            Logar
+        </button>
+    </form>
+</body>
+
+</html>
